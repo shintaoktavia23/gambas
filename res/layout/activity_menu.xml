@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main"
+    android:padding="8dp"
+    tools:context=".menu">
+
+    <Button
+        android:id="@+id/tentang"
+        android:layout_width="359dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="260dp"
+        android:backgroundTint="#2C5C2E"
+        android:textColor="#F6FAF6"
+        android:onClick="tentanggambas"
+        android:text="Tentang Tanaman Gambas"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/diagnosa"
+        android:layout_width="359dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="334dp"
+        android:backgroundTint="#2C5C2E"
+        android:textColor="#F6FAF6"
+        android:onClick="diagnosa"
+        android:text="Diagnosa Hama Dan Penyakit"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/data"
+        android:layout_width="359dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="349dp"
+        android:layout_marginBottom="246dp"
+        android:backgroundTint="#2C5C2E"
+        android:textColor="#F6FAF6"
+        android:onClick="data"
+        android:text="Data Hama Dan Penyakit"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/keluar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop="334dp"
+        android:layout_marginBottom="185dp"
+        android:backgroundTint="#2C5C2E"
+        android:textColor="#F6FAF6"
+        android:onClick="keluar"
+        android:text="keluar"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

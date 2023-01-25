@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    android:padding="10dp"
+    android:background="#BFEDC1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tanaman"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="#70BF73"
+            android:text="DATA PENYAKIT"
+            android:textAlignment="center"
+            android:textColor="#F8F2F2"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/layu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="30dp"
+            android:textColor="#6E3131"
+            android:text="1. Penyakit layu Menyerang pada semua tahap pertumbuhan tanaman gambas dan
+             menyerang tanaman yang baru saja berkecambah dan tanaman muda, namun tidak jarang
+             ditemukan juga pada tanaman yang sudah dewasa. Penyakit ini ditandai dengan daun yang menguning,
+             jaringan batang dan akar berwarna coklat "
+            android:justificationMode="inter_word"/>
+
+        <TextView
+            android:id="@+id/tepung"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="30dp"
+            android:textColor="#6E3131"
+            android:text="2. Penyakit ini dengan gejala awal adanya tepung putih pada bagian bawah
+            daun tanaman gambas dan penyakit ini dapat menyebabkan tanaman gambas mati. Penyakit ini
+            disebabkan oleh jamur Microsphaera Diffusa "
+            android:justificationMode="inter_word"/>
+
+        <ImageView
+            android:id="@+id/imageview"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="30dp"
+            app:srcCompat="@drawable/buluu" />
+
+        <TextView
+            android:id="@+id/bulu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="30dp"
+            android:justificationMode="inter_word"
+            android:text="3. Penyakit Embun Bulu ini menyebabkan tanaman gambas menjadi Daun yang akan berwarna
+            kuning dan coklat kemudian mengering. Penyakit ini disebabkan oleh jamur oomycetes"
+            android:textColor="#493030" />
+
+        <ImageView
+            android:id="@+id/imageview2"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="30dp"
+            app:srcCompat="@drawable/daunbuah" />
+
+        <TextView
+            android:id="@+id/antrak"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="30dp"
+            android:justificationMode="inter_word"
+            android:text="4. Penyakit ini Pada daun akan muncul noda hitam dan berat warna daun akan
+            berwarna hijau tua dengan bercak noda hitam diseluruh bagian daun dan buah Pada musim
+            hujan serangan ini akan lebih banyak terjadi, karena disebabkan oleh jamur
+            atau cendawan Collectrichum sp "
+            android:textColor="#493030" />
+
+    </LinearLayout>
+</ScrollView>

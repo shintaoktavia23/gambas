@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    android:padding="10dp"
+    android:background="#D6F4B3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="#377C3B"
+            android:text="DATA GEJALA"
+            android:textAlignment="center"
+            android:textSize="28dp"
+            android:textStyle="bold"
+            android:textColor="#F8F5F5"/>
+
+
+        <TextView
+            android:id="@+id/gejala"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="30dp"
+            android:justificationMode="inter_word"
+            android:text="1.	Hama berbentuk bintik hitam warna orange \n 2.	Akar muda layu \n 3.	Daun tersisa tulang
+            \n 4.	Daun berlubang \n 5.	Daun alur putih \n 6.	Daun bintik putih \n 7.	Hama berwarna kuning keemasan mengkilap
+            \n 8.	Hama berbentuk ulat \n 9.	Buah berlubang \n 10.	Batang muda terpotong \n 11.	Batang tua terpotong
+            \n 12.	Hama berbentuk ulat berwarna coklat atau putih \n 13.	Hama berbentuk cangkang coklat \n 14.	Akar muda terpotong
+            \n 15.	Banyak kotoran \n 16.	Daun berlubang kecil \n 17.	Batang terpotong \n 18.	Hama bersayap dua pasang berwarna coklat
+            \n 19.	Hama berbentuk lalat warna kuning \n 20.	Buah bintik hitam \n 21.	Buah busuk \n 22.	Buah tersisa bagian luar
+            \n 23.	Daun menguning \n 24.	Jaringan batang berwarna coklat \n 25.	Akar berwarna coklat \n 26.	Daun berwarna hijau pucat
+            \n 27.	Daun layu mengering \n 28.	Daun bercak coklat tertutup tepung putih \n 29.	Batang bercak coklat tertutup tepung putih
+            \n 30.	Buah bercak coklat tertutup tepung putih \n 31.	Bunga bercak coklat tertutup tepung putih \n 32.	Buah berwarna coklat kehitaman
+            \n 33.	Buah kering dan keriput \n 34.	Batang warna coklat \n 35.	Daun muda bintik coklat dan rontok"
+
+            android:textColor="#371B1B" />
+    </LinearLayout>
+</ScrollView>

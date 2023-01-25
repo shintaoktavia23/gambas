@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    android:padding="10dp"
+    android:background="#D6F4B3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="#377C3B"
+            android:text="DATA HAMA"
+            android:textAlignment="center"
+            android:textSize="28dp"
+            android:textStyle="bold"
+            android:textColor="#F8F5F5"/>
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="30dp"
+            app:srcCompat="@drawable/bekicott" />
+
+        <TextView
+            android:id="@+id/gbs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="30dp"
+            android:justificationMode="inter_word"
+            android:text="1. hama bekicot yang menyebabkan kerusakan serius pada
+            tanaman dan meninggalkan lubang yang tidak beraturan dan seringkali berukuran besar di daun "
+            android:textColor="#493030" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="30dp"
+            app:srcCompat="@drawable/jangkrik" />
+
+        <TextView
+            android:id="@+id/jng"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="30dp"
+            android:justificationMode="inter_word"
+            android:text="2. hama Jangkrik menyerang tanaman gambas berumur 3 minggu
+            dan Hama ini menggigit dan memakan batang muda sampai terputus"
+            android:textColor="#493030" />
+
+        <ImageView
+            android:id="@+id/imageview2"
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="30dp"
+            app:srcCompat="@drawable/ulattanah" />
+
+        <TextView
+            android:id="@+id/ulat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="30dp"
+            android:justificationMode="inter_word"
+            android:text="3. hama Ulat Tanah menyerang batang tanaman gambas
+            muda dengan cara memotongnya, sehingga sering dinamakan juga ulat pemotong"
+            android:textColor="#493030" />
+
+        <ImageView
+            android:id="@+id/imageview3"
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="30dp"
+            app:srcCompat="@drawable/grayak" />
+
+        <TextView
+            android:id="@+id/grayak"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="30dp"
+            android:justificationMode="inter_word"
+            android:text="4. Hama Ulat Grayak sering mengakibatkan kegagalan panen karena menyebabkan
+            daun dan buah menjadi terpotong-potong dan berlubang"
+            android:textColor="#493030" />
+
+        <ImageView
+            android:id="@+id/imageview5"
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="30dp"
+            app:srcCompat="@drawable/penggorok" />
+
+        <TextView
+            android:id="@+id/penggorok"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="30dp"
+            android:justificationMode="inter_word"
+            android:text="5. Hama Penggorok Daun menyebabkan bintik-bintik putih dan alur  yang
+            berwarna putih pada permukaan daun gambas"
+            android:textColor="#493030" />
+
+        <ImageView
+            android:id="@+id/imageview6"
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="30dp"
+            app:srcCompat="@drawable/oteng" />
+
+        <TextView
+            android:id="@+id/oteng"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="30dp"
+            android:justificationMode="inter_word"
+            android:text="6. Hama oteng-oteng yang menyerang daun dengan memakan daun-daun muda
+            hingga batang muda dan melakukan serangan jumlah besar secara bersama-sama sehingga
+            daun akan cepat habis dimakan."
+            android:textColor="#493030" />
+
+        <ImageView
+            android:id="@+id/imageview7"
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="30dp"
+            app:srcCompat="@drawable/lalat" />
+
+        <TextView
+            android:id="@+id/lalat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="30dp"
+            android:justificationMode="inter_word"
+            android:text="7. Hama lalat buah gambas akan membusuk dan rontok sehingga hasil panennya tidak optimal.
+            Serangan hama ini dapat merugikan karena jika tidak dikendalikan akan mengakibatkan gagal panen"
+            android:textColor="#493030" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B7F4BA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:orientation="vertical"
+        tools:context=".diagnosa_gambas">
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/gambass" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Diagnosa Hama Dan \n Penyakit Metode Forward Chaining"
+            android:textAlignment="center"
+            android:textColor="#080309"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:layout_marginTop="20dp"
+            android:id="@+id/hama_bintik_hitam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickChecked"
+            android:text="G1 Hama Bintik Hitam Bulat Warna Orange" />
+
+        <CheckBox
+            android:id="@+id/akar_muda_layumati"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickChecked"
+            android:text="G2 Akar Muda Layu Dan Mati" />
+
+        <CheckBox
+            android:id="@+id/daun_tulang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickChecked"
+            android:text="G3 Daun Tersisa Tulang" />
+
+        <CheckBox
+            android:id="@+id/daun_berlubang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickChecked"
+            android:text="G4 Daun Berlubang" />
+
+        <CheckBox
+            android:id="@+id/alur_putih"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickChecked"
+            android:text="G5 Daun alur putih" />
+
+        <CheckBox
+            android:id="@+id/daun_bintik_putih"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickChecked"
+            android:text="G6  Daun Bintik Putih" />
+
+        <CheckBox
+            android:id="@+id/hama_kuning_keemasan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickChecked"
+            android:text="HamaG7 Berwarna Kuning Keemasan Mengkilap" />
+
+        <CheckBox
+            android:id="@+id/hama_ulat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickChecked"
+            android:text="G8 hama berbentuk ulat" />
+
+        <CheckBox
+            android:id="@+id/buah_berlubang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickChecked"
+            android:text="G9 Buah Berlubang" />
+
+        <CheckBox
+            android:id="@+id/batang_muda_terpotong"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickChecked"
+            android:text="G10 Batang Muda Terpotong" />
+
+        <CheckBox
+            android:id="@+id/batang_tua_terpotong"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickChecked"
+            android:text="G11 Batang Tua Terpotong" />
+
+        <CheckBox
+            android:id="@+id/hama_ulat_hitam_putih"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickChecked"
+            android:text="G12 Hama Berbentuk Ulat Berwarna Hitam Dan Putih" />
+
+        <CheckBox
+            android:id="@+id/hama_cangkang_coklat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickChecked"
+            android:text="G13 Hama Berbentuk Cangkang" />
+
+        <CheckBox
+            android:id="@+id/akar_muda_terpotong"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickChecked"
+            android:text="G14 Akar Muda Terpotong" />
+
+        <CheckBox
+            android:id="@+id/banyak_kotoran"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickChecked"
+            android:text="G15 Banyak Kotoran" />
+
+        <CheckBox
+            android:id="@+id/daun_lubang_kecil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickChecked"
+            android:text="G16 Daun Berlubang Kecil" />
+
+        <CheckBox
+            android:id="@+id/batang_terpotong"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickChecked"
+            android:text="G17 Batang Terpotong" />
+
+        <CheckBox
+            android:id="@+id/hama_sayap_coklat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickChecked"
+            android:text="G18 Hama Bersayap Dua Pasang Berwarna Coklat" />
+
+        <CheckBox
+            android:id="@+id/hama_lalat_kuning"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickChecked"
+            android:text="G19 Hama Berbentuk Llat Warna Kuning " />
+
+        <CheckBox
+            android:id="@+id/buah_bintik_hitam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickChecked"
+            android:text="G20 Buah Bintik Hitam" />
+
+        <CheckBox
+            android:id="@+id/buah_busuk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickChecked"
+            android:text="G21 Buah Busuk" />
+
+        <CheckBox
+            android:id="@+id/buah_tersisa_luar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickChecked"
+            android:text="G22 Buah Tersisa Bagian Luar" />
+
+        <CheckBox
+            android:id="@+id/daun_menguning"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickChecked"
+            android:text="G23 Daun menguning" />
+
+        <CheckBox
+            android:id="@+id/jaring_coklat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickChecked"
+            android:text="G24 Jaringan Batang Berwarna Coklat" />
+
+        <CheckBox
+            android:id="@+id/akar_coklat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickChecked"
+            android:text="G25 Akar Berwarna Coklat" />
+
+        <CheckBox
+            android:id="@+id/daun_hijau_pucat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickChecked"
+            android:text="G26 Daun Berwarna Hijau Pucat" />
+
+        <CheckBox
+            android:id="@+id/daun_mengering"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickChecked"
+            android:text="G27 Daun Layu Mengering" />
+
+        <CheckBox
+            android:id="@+id/daun_bercak_coklat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickChecked"
+            android:text="G28 Daun Bercak Coklat Tertutup Tepung Putih" />
+
+        <CheckBox
+            android:id="@+id/buah_bercak_coklat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickChecked"
+            android:text="G29 Buah Bercak Coklat Tertutup Tepung Putih" />
+
+        <CheckBox
+            android:id="@+id/bunga_bercak_coklat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickChecked"
+            android:text="G30 Bunga Bercak Coklat Tertutup Tepung Putih" />
+
+        <CheckBox
+            android:id="@+id/batang_bercak_coklat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickChecked"
+            android:text="G31 Batang Bercak Coklat Tertutup Tepung Putih" />
+
+        <CheckBox
+            android:id="@+id/buah_coklat_kehitaman"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickChecked"
+            android:text="G32 Berwarna Coklat Kehitaman  " />
+
+        <CheckBox
+            android:id="@+id/buah_kering_keriput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickChecked"
+            android:text="G33 Buah Kering dan Keriput" />
+
+        <CheckBox
+            android:id="@+id/batang_coklat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickChecked"
+            android:text="G34 Batang Warna Coklat" />
+
+        <CheckBox
+            android:id="@+id/daun_muda_bintik"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickChecked"
+            android:text="G35 Daun Muda Bintik Coklat dan Rontok" />
+
+        <Button
+            android:id="@+id/btn_diagnosa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cek Diagnosa"
+            android:background="#B587C8"/>
+
+        <TextView
+            android:textSize="20sp"
+            android:id="@+id/tv_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Result"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:layout_marginBottom="20dp"/>
+
+    </LinearLayout>
+</ScrollView>

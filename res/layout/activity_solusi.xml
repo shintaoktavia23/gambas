@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    android:padding="10dp"
+    android:background="#D6F8AF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="#377C3B"
+            android:text="DATA SOLUSI"
+            android:textAlignment="center"
+            android:textSize="28dp"
+            android:textStyle="bold"
+            android:textColor="#F8F5F5"/>
+
+
+        <TextView
+            android:id="@+id/gejala"
+            android:layout_width="361dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="35dp"
+            android:justificationMode="inter_word"
+            android:text="1. Nama Oteng-oteng \n SOLUSI : Menaburkan nematisida pada pangkal batang muda Memungut oteng-oteng dan Penyemprotan dengan insektisida.
+\n\n 2. Nama Pengorok Daun \n SOLUSI : Pengendalian secara kimiawi yaitu dengan penyemprotan insektisida berbahan aktif abamectin, bifenthrin, methoxyfenozide dengan secara bergantian.
+\n\n 3. Nama Ulat Grayak \n SOLUSI : Menggunakan insektisida botani dengan dosis yang tepat.
+\n\n 4. Nama Ulat Tanah  \n SOLUSI : Menggunakan insektisida berbahan aktif profenofos, klorpirifos, sipermetrin dengan dosis yang tepat.
+\n\n 5. Nama Bekicot \n SOLUSI : Semprot dengan larutan bawang putih dan Menggambil bekicot dan buang.
+\n\n 6. Nama Lalat Buah \n SOLUSI : penyemprotkan insektisida dengan berbahan aktif  Propenofos atau Asefat dengan dosis yang tepat.
+\n\n 7. Nama Layu \n SOLUSI : mencabut tanaman yang layu dan Mengurangi penggunaan pupuk berkadar N tinggi lebih baik gunakan pupuk NPK.
+\n\n 8. Nama Embun Bulu \n SOLUSI : memilih bibit yang unggul gunakan fungisida dan dosisnya secara tepat dan hindari penyiraman pada siang hari.
+\n\n 9. Nama Embun Tepung \n SOLUSI : Menyemprotkan Fungisida Translaminar dengan dosis yang depat.
+\n\n 10. Nama Antraknosa \n SOLUSI : Gunakan bibit yang tepat dan pilih mulsa plastik berwarna hitam perak.
+"
+
+            android:textSize="14dp"
+            android:textColor="#370707"
+            android:textAlignment="viewStart"/>
+    </LinearLayout>
+</ScrollView>
